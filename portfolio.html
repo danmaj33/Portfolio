@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+   <link rel="shortcut icon" type="image/jpg" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="CSS/portfolio.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Daniel Reeves Design">
+    <meta name="author" content="Daniel Reeves">
+    <title>Daniel Reeves Design: Portfolio</title>
+</head>
+
+<body onload="myFunction()">
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <script src="JS/hideandseek.js"></script>
+
+    <nav>
+        <a id="resp-menu" class="responsive-menu" href="#"><i class="fa fa-reorder"></i> Menu</a>    
+           <ul class="menu">
+           <li><a href="index.html">HOME</a></li>
+          <li><a  href="index.html#about"><i class="fa fa-user"></i> ABOUT</a></li>
+          <li><a href="portfolio.html"><i class="fa fa-camera"></i> PORTFOLIO</a>
+          <!-- <ul class="sub-menu">
+           <li><a href="#">Sub-Menu 1</a></li>
+           <li><a href="#">Sub-Menu 2</a>
+            <ul>
+            <li><a href="#">Sub Sub-Menu 1</a></li>
+               <li><a href="#">Sub Sub-Menu 2</a></li>
+            <li><a href="#">Sub Sub-Menu 3</a></li>
+               <li><a href="#">Sub Sub-Menu 4</a></li>
+            <li><a href="#">Sub Sub-Menu 5</a></li>	
+            </ul>
+           </li>
+             <li><a href="#">Sub-Menu 3</a>
+            <ul>
+            <li><a href="#">Sub Sub-Menu 1</a></li>
+               <li><a href="#">Sub Sub-Menu 2</a></li>
+            <li><a href="#">Sub Sub-Menu 3</a></li>
+               <li><a href="#">Sub Sub-Menu 4</a></li>
+            <li><a href="#">Sub Sub-Menu 5</a></li>	
+            </ul>
+           </li>
+           </ul>
+          </li> -->
+          <li><a  href="index.html#contact"><i class="fa fa-bullhorn"></i>CONTACT</a></li>
+            <!--<li><a  href="#"><i class="fa fa-tags"></i> CATEGORIES</a>
+          <ul class="sub-menu">
+           <li><a href="#">Sub-Menu 1</a></li>
+           <li><a href="#">Sub-Menu 2</a>
+            <ul>
+            <li><a href="#">Sub Sub-Menu 1</a></li>
+               <li><a href="#">Sub Sub-Menu 2</a></li>
+            <li><a href="#">Sub Sub-Menu 3</a></li>
+               <li><a href="#">Sub Sub-Menu 4</a></li>
+            <li><a href="#">Sub Sub-Menu 5</a></li>	
+            </ul>
+           </li>
+             <li><a href="#">Sub-Menu 3</a>
+            <ul>
+            <li><a href="#">Sub Sub-Menu 1</a></li>
+               <li><a href="#">Sub Sub-Menu 2</a></li>
+            <li><a href="#">Sub Sub-Menu 3</a></li>
+               <li><a href="#">Sub Sub-Menu 4</a></li>
+            <li><a href="#">Sub Sub-Menu 5</a></li>	
+            </ul>
+           </li>
+           </ul>
+          </li>
+          <li><a  href="#"><i class="fa fa-envelope"></i> CONTACT</a></li>
+          <li><a  href="#"><i class="fa fa-sitemap"></i> SITEMAP</a></li>
+          <li><a  href="#"><i class="fa fa-exclamation-triangle"></i> DISCLAIMER</a></li> -->
+
+          </ul>
+          </nav>
+          <main>
+            <div id="top"><h2></h2></div>
+            <div id="topimg"><h1>Portfolio</h1></div>
+            <div id="graphicdesign"><h2>GRAPHIC DESIGN</h2><br>
+               <button class="preview-button pb-1" data-gbr="images/blackdiamond.pdf" data-judul="Black Diamond">Black Diamond</button>
+               <button class="preview-button pb-2" data-gbr="images/socialmedia-01.jpg" data-judul="MTN DEW">MTN DEW</button>
+               <button class="preview-button pb-3" data-gbr="images/socialmedia-01.jpg" data-judul="SOCIAL MEDIA">SOCIAL MEDIA</button>
+               <div class="fullscreen"><div class="close-text">CLICK TO CLOSE</div><br/><div class="judul"></div>
+                 <img class="the-image" src=""></img>
+            </div>
+                  <script src="JS/preview.js"></script>
+              
+            </div>
+            <div id="photography"><h2>PHOTOGRAPHY</h2><br>
+               <button class="preview-button pb-1" data-gbr="http://www.toniagustian.com/wp-content/uploads/WPAP-of-Adam-Levine-Maroon-Five-small-260x368.png" data-judul="NATURE">NATURE</button>
+               <button class="preview-button pb-2" data-gbr="http://www.toniagustian.com/wp-content/uploads/Beyonce-Knowles-WPAP-by-Toni-A-260x347.png" data-judul="COMMERCIAL">COMMERCIAL</button>
+               <button class="preview-button pb-3" data-gbr="http://www.toniagustian.com/wp-content/uploads/WPAP-of-Client-Anonymous-260x437.png" data-judul="PEOPLE">PEOPLE</button>
+               <div class="fullscreen"><div class="close-text">CLICK TO CLOSE</div><br/><div class="judul"></div>
+                 <img class="the-image" src=""></img>
+               
+             
+            </div>
+            <script src="JS/preview.js"></script>
+            </div>
+            <div id="webdesign"><h2>WEB DESIGN</h2>
+            <span></span>
+            </div>
+            </div>
+          </main>
+
+<footer >
+ &copy;<span id='currentyear'></span>| Daniel Reeves Design | Daniel Reeves<br>
+ <span id='currentdate'></span>
+ <span class="social"><a href=""><img src="images/facebook.png"></a><a href=""><img src="images/instagram.png"></a><a href=""><img src="images/twitter.png"></a></span>
+ <script src='JS/date.js'></script>
+ 
+
+<p id="demo" style="font-style: italic;font-size: x-small;letter-spacing: 5px;"></p>
+
+<script src="JS/lastupdate.js"></script>
+ 
+
+</footer>
+
+</body>
+</html>
