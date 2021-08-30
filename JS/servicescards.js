@@ -1,4 +1,4 @@
-const requestURL = "JS/servicescardsjson.json";
+const requestURL = "https://danmaj33.github.io/Portfolio/JS/servicescardsjson.json";
 
 
 
