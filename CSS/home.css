@@ -6,6 +6,19 @@
     padding: 0;
 }
 
+h1 {
+    color: #640D14;
+    
+}
+
+#about > h2:nth-child(1) {
+    font-size:58pt;
+}
+#about > h2:nth-child(2) {
+    font-size: 20pt;
+    letter-spacing: 1px;
+}
+
 p {
     text-indent: 20px;
     word-wrap: normal;
@@ -46,11 +59,11 @@ body {
 
 nav {
     display: block;
-    background: linear-gradient(to top left, #374147, #565858);  
+    background: linear-gradient(to top left, #FFFF, #d3d3d3);  
     position: fixed;
     width: 100%;
     margin-bottom: 15px;
-    box-shadow:  4px 4px 10px black;
+    box-shadow:  4px 4px 10px rgb(168, 168, 168);
 }
 
 .menu {
@@ -72,11 +85,11 @@ nav {
     text-decoration: none;
     padding: 10px 15px;
     display: block;
-    color: rgba(255, 255, 255, 0.568);
-    text-shadow: 0px 1px 1px #4d4d4d;
+    color: rgba(83, 83, 83);
+    text-shadow: 0px 1px 1px #c2c2c2;
     transition: all .2s ease-in-out .2s;
     margin: 5px;
-    border: 2px solid #4d4d4d ;
+    border: 2px solid #a8a8a8 ;
     
 }
 
@@ -198,6 +211,7 @@ a.homer {
     grid-template-rows: auto auto auto;
     justify-items: center;
     align-items: center;
+    padding: 10%;
 }
 
 
@@ -205,7 +219,7 @@ div {
     height: 100%;
     width: 100%;
     padding: 20px 15px;
-    background: black; 
+    background: white; 
     
 }
 
@@ -213,6 +227,13 @@ div {
    height: 25px;
    background-color: #374147;
 }
+
+#about > h4 {
+    text-align: justify;
+    line-height: 20px;
+}
+
+
 
 .social img {
     height: 35px;
@@ -255,7 +276,7 @@ sub {
 
 
 .aboutimg img {
-    width: 300px;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -268,20 +289,21 @@ sub {
 
 .item {
     display: inline-block;
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    border: 5px #374147 solid;
+    width: 250px;
+    height: 250px;
     border-radius: 10px;
+    background: linear-gradient(to top left, #374147, #565858);
+    box-shadow: 4px 4px 10px black;
 }
 
 .item h3 {
-  color: #374147;  
+  color: rgba(255, 255, 255, 0.568);  
+  letter-spacing: 2px;
 }
 
 .item img {
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     margin: 20px;
 }
 .businesscard img {
@@ -297,13 +319,20 @@ img {
 #about {
    grid-column: 2/4;
    grid-row: 1/2;
+   padding: 50px;
 }
 #portfolio {
-    grid-column: 2/4;
+    grid-column: 1/5;
     grid-row: 2/3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
 }
+
+
 #contact {
-    grid-column: 2/4;
+    grid-column: 1/4;
     grid-row: 3/4;
 }
 
