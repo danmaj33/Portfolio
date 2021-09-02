@@ -2,24 +2,24 @@
   "portfolios": [
     {
       "name": "GRAPHIC DESIGN",
-      "imageurl": "https://github.com/danmaj33/danreeves.github.io/blob/master/final1/directory/images/tonyslogo.jpg?raw=true",
+      "imageurl": "https://github.com/danmaj33/Portfolio/blob/main/images/graphicdesign-01.png?raw=true",
       "link":"https://slicelife.com/restaurants/ut/ogden/84403/tony-s-pizza-ogden/menu"
     },
     {
         "name": "WEB DESIGN",
-        "imageurl": "https://github.com/danmaj33/danreeves.github.io/blob/master/final1/directory/images/goldenjadelogo.jpg?raw=true",
+        "imageurl": "https://github.com/danmaj33/Portfolio/blob/main/images/webdesign-01.png?raw=true",
         "link":"http://places.singleplatform.com/golden-jade-12/menu"
     },
     {
         "name": "PHOTOGRAPHY",
         "phone": "801-452-6010",
         "address": "4291 Harrison Blvd",
-        "imageurl": "https://github.com/danmaj33/danreeves.github.io/blob/master/final1/directory/images/acelogo.png?raw=true",
+        "imageurl": "https://github.com/danmaj33/Portfolio/blob/main/images/photodesign-01.png?raw=true",
         "link":"https://www.acehardware.com/store-details/16287?gclid=CjwKCAjwgZuDBhBTEiwAXNofRIx_DdbK_JVNNY-IG2R73JIYJsHwF2QNhoofxzRu5YPWhWPFakB0fxoCM30QAvD_BwE&gclsrc=aw.ds"
       },
       {
         "name": "BRANDING",
-        "imageurl": "https://github.com/danmaj33/danreeves.github.io/blob/master/final1/directory/images/pielogo.png?raw=true",
+        "imageurl": "https://github.com/danmaj33/Portfolio/blob/main/images/brandingdesign-01.png?raw=true",
         "link":"https://www.thepie.com/locations/the-pie-ogden"
       } 
   ]
