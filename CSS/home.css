@@ -100,7 +100,10 @@ nav {
 .menu li:first-child {
     margin-left: 0;
 }
-
+body > nav > ul > li:nth-child(1) > img {
+    height: 100px;
+    margin: 10px;
+}
 .menu li a {
     font-weight: 600;
     text-decoration: none;
@@ -301,17 +304,17 @@ sub {
  grid-row: 3/4;
 }
 
+
+
 .item {
     display: inline-block;
     width: 250px;
     height: 250px;
-    border-radius: 10px;
-    background: linear-gradient(to top left, #374147, #565858);
-    box-shadow: 4px 4px 10px black;
+    border-radius: 10px;    
 }
 
 .item h3 {
-  color: rgba(255, 255, 255, 0.568);  
+  color: #374147;  
   letter-spacing: 2px;
 }
 
