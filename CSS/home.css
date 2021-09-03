@@ -319,8 +319,7 @@ sub {
 }
 
 .item img {
-    height: 150px;
-    width: 150px;
+    height: 200px;
     margin: 20px;
 }
 .businesscard img {
@@ -344,7 +343,6 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 100px;
 }
 
 
