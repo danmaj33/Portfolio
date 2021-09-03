@@ -1,6 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700,800);
 @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
 
+
+/* CSS HEX
+--charcoal: #374147ff;
+--white: #ffffffff;
+--bittersweet: #f87060ff;
+--illuminating-emerald: #4e937aff;
+--rosewood: #640d14ff; */
+
 *,html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,label,fieldset,input,p,blockquote,th,td, main, footer {
     margin: 0;
     padding: 0;
@@ -13,15 +21,28 @@ h1 {
 
 #about > h2:nth-child(1) {
     font-size:58pt;
+    color: #f87060ff;
 }
 #about > h2:nth-child(2) {
-    font-size: 20pt;
+    font-size: 24.4pt;
     letter-spacing: 1px;
+    color: #4e937aff;
+    font-variant: small-caps;
+}
+#about > h3 {
+color: #1E91D6;
 }
 
-p {
+#about > h4 {
+    text-align: justify;
+    line-height: 20px;
+    color:  #374147ff;
+}
+
+#about > p {
     text-indent: 20px;
     word-wrap: normal;
+   
 }
 
 article,aside,figure,footer,header,hgroup,nav,section,main {
@@ -59,11 +80,11 @@ body {
 
 nav {
     display: block;
-    background: linear-gradient(to top left, #FFFF, #d3d3d3);  
+    background: linear-gradient(to top left, #FFFF, #ffffff);  
     position: fixed;
     width: 100%;
     margin-bottom: 15px;
-    box-shadow:  4px 4px 10px rgb(168, 168, 168);
+   
 }
 
 .menu {
@@ -87,16 +108,16 @@ nav {
     display: block;
     color: rgba(83, 83, 83);
     text-shadow: 0px 1px 1px #c2c2c2;
-    transition: all .2s ease-in-out .2s;
-    margin: 5px;
-    border: 2px solid #a8a8a8 ;
+       margin: 5px; 
     
 }
 
-.menu li a:hover,.menu li:hover>a {
-    border: 2px solid rgba(255, 255, 255, 0.568) ;
-   
+.menu li a:hover {
+    background-color: rgba(248, 111, 96, 0.575);
+    transition: ease-in 0.3s;
+    border-radius: 2px;
 }
+
 
 .menu ul {
     visibility: hidden;
@@ -227,13 +248,6 @@ div {
    height: 25px;
    background-color: #374147;
 }
-
-#about > h4 {
-    text-align: justify;
-    line-height: 20px;
-}
-
-
 
 .social img {
     height: 35px;
