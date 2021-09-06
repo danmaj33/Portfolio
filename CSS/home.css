@@ -136,7 +136,7 @@ body > nav > ul > li:nth-child(1) > img {
     background: #fff;
     z-index: 99;
     transform: translate(0,20px);
-    transition: all 0.2s ease-out;
+    transition: all 1s ease-out;
 }
 
 .menu ul:after {
@@ -160,7 +160,6 @@ body > nav > ul > li:nth-child(1) > img {
     background: none;
     margin: 0;
     padding: 0;
-    transition: all 1s ease-out 1s;
 }
 
 .menu ul li a {
